@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-    }
     :root {
         --primary-color: #fc6f38;
         --secondary-color: #165a92;
@@ -14,7 +13,7 @@
     }
     header {
         padding: 20px 35px;
-        background-color: var(--secondary-color);
+        background-color: white;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -27,11 +26,9 @@
     header h1 {
         font-weight: bold;
         font-size: 40px; 
-        color: blueviolet;
         margin: 0;
     }
     header a {
-        color: var(--primary-color);
     }
     header nav {
         margin: 7px 0;
@@ -49,8 +46,7 @@
         font-size: 1.55vw;
     }
     header nav ul li a:hover {
-        background: var(--primary-color);
-        color: var(--secondary-color);
+        background: rgb(45, 151, 86);
         border-radius: 15px;
         text-shadow: none;
     }
@@ -74,14 +70,31 @@
         width: 40%;
         text-align: right;
         margin: 3.5%;
-        color: #fff;
+        background-color: grey;
+        color: white;
         font-size: 18px;
         line-height: 1.2;
       }
-      .box {
-          display: flex;
-          justify-content: flex-start;
-          margin: 3.5%;
-          padding: 10px 15px;
-      }
+      .service-grid-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+      .service-grid-container {
+          display: grid; 
+        background: rgb(255, 255, 255);
+        grid-template-columns: 1fr repeat (1, 2fr);
+        grid-template-rows: repeat(1, 1fr); 
+        border: 2px solid var(--secondary-color);
+        color: var(--secondary-color);
+        font-size: 1.2rem;
+        margin: 1.5%;
+}
+    .service-grid-item {
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     
