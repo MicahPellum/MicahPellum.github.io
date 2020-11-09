@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    }
+    :root {
+        --primary-color: #fc6f38;
+        --secondary-color: #165a92;
+        --tertiary-color: #c557b3;
+      }
+    body {
+        color: var(--tertiary-color);
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    header {
+        padding: 20px 35px;
+        background-color: var(--secondary-color);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0;
+        background-image: url("../portfolio/Pictures/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg");
+        background-attachment: fixed;
+        background-position: 20%;
+        z-index: 9999;
+    }
+    header h1 {
+        font-weight: bold;
+        font-size: 40px; 
+        color: blueviolet;
+        margin: 0;
+    }
+    header a {
+        color: var(--primary-color);
+    }
+    header nav {
+        margin: 7px 0;
+    }
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 1.55vw;
+    }
+    header nav ul li a:hover {
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        border-radius: 15px;
+        text-shadow: none;
+    }
