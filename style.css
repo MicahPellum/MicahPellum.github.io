@@ -28,8 +28,6 @@
         font-size: 40px; 
         margin: 0;
     }
-    header a {
-    }
     header nav {
         margin: 7px 0;
     }
@@ -41,8 +39,8 @@
         list-style: none;
     }
     header nav ul li a {
-        padding: 10px 15px;
-        font-weight: lighter;
+        padding: 10px 10px;
+        font-weight: bold;
         font-size: 1.55vw;
     }
     header nav ul li a:hover {
@@ -81,11 +79,9 @@
         justify-content: center;
     }
       .service-grid-container {
-          display: grid; 
+        display: grid; 
+        grid-template-columns: auto;
         background: rgb(255, 255, 255);
-        grid-template-columns: 1fr repeat (1, 2fr);
-        grid-template-rows: repeat(1, 1fr); 
-        border: 2px solid var(--secondary-color);
         color: var(--secondary-color);
         font-size: 1.2rem;
         margin: 1.5%;
