@@ -6,6 +6,4 @@ Portfolio to show a little about me and my work.
 -HTML
 -CSS
 ## Website
-file:///C:/Users/pellu/Desktop/portfolio/index.html
-
-
+https://micahpellum.github.io/
